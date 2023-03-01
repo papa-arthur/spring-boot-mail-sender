@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <h2 >Hi <spam th:text="${recipientName}"></spam></h2>
+    <h3 style="color: green"  th:text="${text}"></h3>
+    <p >Regards</p>
+    <p><em th:text="${senderName}"></em> <br />
+      <img width="200px" height="30" src="cid:attachment.png"/>
+    </p>
+  </body>
+</html>
